@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 9f39320c567357341957e7cf1d090e73
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilemap_packed 1_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 108
+        width: 54
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65789dc43f9ccfb47b7b858871908804
+      internalID: 2031988465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_packed 1_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 54
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4365fa7e1cb03745a15403355f55f7d
+      internalID: 1073144668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tilemap_packed 1_0: 2031988465
+      tilemap_packed 1_1: 1073144668
+      tilemap_packed 1_2: -189123589
+      tilemap_packed_0: -1760064549
+      tilemap_packed_1: -575765364
+      tilemap_packed_10: 1570502827
+      tilemap_packed_100: 946155913
+      tilemap_packed_101: 1645258798
+      tilemap_packed_102: -825779148
+      tilemap_packed_103: -808345652
+      tilemap_packed_104: 873308157
+      tilemap_packed_105: 221234187
+      tilemap_packed_106: -153769374
+      tilemap_packed_107: 1031583709
+      tilemap_packed_108: 1418624977
+      tilemap_packed_109: -1743860357
+      tilemap_packed_11: -959271973
+      tilemap_packed_110: 1399725399
+      tilemap_packed_111: 1789221017
+      tilemap_packed_12: 977932109
+      tilemap_packed_13: -1926811474
+      tilemap_packed_14: -1963003600
+      tilemap_packed_15: 1436118541
+      tilemap_packed_16: 1401436135
+      tilemap_packed_17: -354777843
+      tilemap_packed_18: -1733904748
+      tilemap_packed_19: 269043840
+      tilemap_packed_2: -352399110
+      tilemap_packed_20: -1410276722
+      tilemap_packed_21: 261007216
+      tilemap_packed_22: 1678890773
+      tilemap_packed_23: 1211470225
+      tilemap_packed_24: 1708128046
+      tilemap_packed_25: 1353743566
+      tilemap_packed_26: -370868177
+      tilemap_packed_27: 990955173
+      tilemap_packed_28: -664345621
+      tilemap_packed_29: 449390449
+      tilemap_packed_3: -445005856
+      tilemap_packed_30: -2056042288
+      tilemap_packed_31: 370658885
+      tilemap_packed_32: 318606234
+      tilemap_packed_33: 1163512618
+      tilemap_packed_34: 410031028
+      tilemap_packed_35: 1809687822
+      tilemap_packed_36: 997613265
+      tilemap_packed_37: -885811826
+      tilemap_packed_38: 1124940578
+      tilemap_packed_39: 613220669
+      tilemap_packed_4: -418271600
+      tilemap_packed_40: 998108646
+      tilemap_packed_41: 2088160515
+      tilemap_packed_42: 1452803476
+      tilemap_packed_43: 1204809171
+      tilemap_packed_44: 1736167675
+      tilemap_packed_45: -1024541105
+      tilemap_packed_46: -1917269030
+      tilemap_packed_47: 1498050103
+      tilemap_packed_48: 1145530754
+      tilemap_packed_49: 1376047120
+      tilemap_packed_5: -1387464222
+      tilemap_packed_50: -1957921110
+      tilemap_packed_51: -1533802463
+      tilemap_packed_52: -1533183775
+      tilemap_packed_53: -201967464
+      tilemap_packed_54: 824302825
+      tilemap_packed_55: 2074445291
+      tilemap_packed_56: 826425936
+      tilemap_packed_57: 1728785875
+      tilemap_packed_58: -1741261603
+      tilemap_packed_59: 753484793
+      tilemap_packed_6: 1250785147
+      tilemap_packed_60: 182717091
+      tilemap_packed_61: -1482962971
+      tilemap_packed_62: 1081821693
+      tilemap_packed_63: -360262082
+      tilemap_packed_64: 141986160
+      tilemap_packed_65: -429094240
+      tilemap_packed_66: 1649995559
+      tilemap_packed_67: 1039461618
+      tilemap_packed_68: -1462804726
+      tilemap_packed_69: -1033639943
+      tilemap_packed_7: 806360017
+      tilemap_packed_70: 1307069887
+      tilemap_packed_71: 1617891513
+      tilemap_packed_72: -1894764570
+      tilemap_packed_73: 1011164056
+      tilemap_packed_74: 1232787644
+      tilemap_packed_75: 1669732312
+      tilemap_packed_76: 386027024
+      tilemap_packed_77: -1046565877
+      tilemap_packed_78: 828731341
+      tilemap_packed_79: 450867840
+      tilemap_packed_8: 1739404946
+      tilemap_packed_80: -1527150884
+      tilemap_packed_81: 1547447662
+      tilemap_packed_82: 1627020236
+      tilemap_packed_83: 244175222
+      tilemap_packed_84: -1043112250
+      tilemap_packed_85: 524569325
+      tilemap_packed_86: 1865818361
+      tilemap_packed_87: 937572682
+      tilemap_packed_88: -2017255290
+      tilemap_packed_89: 2089030491
+      tilemap_packed_9: -1992076211
+      tilemap_packed_90: 1432565599
+      tilemap_packed_91: -262154768
+      tilemap_packed_92: 864505264
+      tilemap_packed_93: 140163432
+      tilemap_packed_94: 1491778323
+      tilemap_packed_95: 968657974
+      tilemap_packed_96: 1634238985
+      tilemap_packed_97: -1010228310
+      tilemap_packed_98: 1852065195
+      tilemap_packed_99: -700400027
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
