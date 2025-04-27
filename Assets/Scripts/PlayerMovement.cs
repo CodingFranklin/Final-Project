@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -57,12 +59,28 @@ public class PlayerMovement : MonoBehaviour
         playerEnergy.UpdateEnergyBar();
     }
 
+    public void GameOver()
+    {
+        SceneManager.LoadScene(3);
+    }
+
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Platform" ||
-         collision.gameObject.tag == "Falling Platform"){
+         collision.gameObject.tag == "Falling Platform")
+        {
             isInAir = false;
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Game Over!!");
+        
+        if (collision.gameObject.tag == "Dead Zone")
+        {
+            GameOver();
         }
     }
 }
