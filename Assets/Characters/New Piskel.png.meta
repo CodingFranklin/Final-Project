@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bec995fccce49473bbddfc199287facf
+guid: 344d5efaf46684577a7719fc61fdd03a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pizza guy walk right_0
+      name: New Piskel_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 32
-        height: 32
+        y: 66
+        width: 66
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,83 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17e9485acae644ed9becf4997910dcb1
-      internalID: -743433853
+      spriteID: 82924288c5dd745eb91303f6401cdc5f
+      internalID: -709062697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pizza guy walk right_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a9bbfde98c164191a7e96fd96dce2e1
-      internalID: -181076456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pizza guy walk right_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0138d6e0e62de4510b2326d6e3e0d76b
-      internalID: -1276209888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pizza guy walk right_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ee8f9bb446194ef899428105c160071
-      internalID: -590160797
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pizza guy walk right_4
+      name: New Piskel_1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 66
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,29 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30bda1e0308ef4a94b83c0da3e856d7c
-      internalID: 486773891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pizza guy walk right_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6a07c71c82e94412aedce1d83d434f3
-      internalID: 1048285557
+      spriteID: adeca4ac5e80648cab6a3e5b4683ac3c
+      internalID: -1578078439
       vertices: []
       indices: 
       edges: []
@@ -233,12 +149,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pizza guy walk right_0: -743433853
-      pizza guy walk right_1: -181076456
-      pizza guy walk right_2: -1276209888
-      pizza guy walk right_3: -590160797
-      pizza guy walk right_4: 486773891
-      pizza guy walk right_5: 1048285557
+      New Piskel_0: -709062697
+      New Piskel_1: -1578078439
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
