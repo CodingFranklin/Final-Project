@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Platform
   - Falling Platform
+  - Food
   layers:
   - Default
   - TransparentFX

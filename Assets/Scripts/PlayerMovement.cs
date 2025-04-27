@@ -6,14 +6,19 @@ public class PlayerMovement : MonoBehaviour
 {
 
     private Rigidbody2D rb;
+    private PlayerEnergy playerEnergy;
 
     public bool isInAir;
 
     [SerializeField] float moveSpeed;
     [SerializeField] float jumpSpeed;
+    [SerializeField] float energyPerJump;
+    public float currentEnergy;
+    public float maxEnergy;
 
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
+        playerEnergy = GetComponent<PlayerEnergy>();
 
         isInAir = false;
     }
@@ -29,11 +34,27 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed, rb.velocity.y);
 
         // Jump (No air jump)
-        if (!isInAir && Input.GetKeyDown(KeyCode.Space)){
+        if (!isInAir && currentEnergy > 0 && Input.GetKeyDown(KeyCode.Space)){
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
 
             isInAir = true;
+
+            loseEnergy();
         }
+    }
+
+    public void loseEnergy()
+    {
+        if (currentEnergy - energyPerJump <= 0)
+        {
+            currentEnergy = 0;
+        }
+        else
+        {
+            currentEnergy -= energyPerJump;
+        }
+
+        playerEnergy.UpdateEnergyBar();
     }
 
 
