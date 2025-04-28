@@ -8,6 +8,7 @@ TagManager:
   - Falling Platform
   - Food
   - Dead Zone
+  - PizzaFamily
   layers:
   - Default
   - TransparentFX
