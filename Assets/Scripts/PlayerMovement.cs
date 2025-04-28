@@ -64,6 +64,11 @@ public class PlayerMovement : MonoBehaviour
         SceneManager.LoadScene(3);
     }
 
+    public void Win()
+    {
+        SceneManager.LoadScene(4);
+    }
+
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -81,6 +86,11 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Dead Zone")
         {
             GameOver();
+        }
+        
+        if (collision.gameObject.tag == "PizzaFamily")
+        {
+            Win();
         }
     }
 }
